@@ -7,7 +7,7 @@ from keras.layers import Dense
 # To remove the scientific notation from numpy arrays
 np.set_printoptions(suppress=True)
  
-CarPricesDataNumeric=pd.read_pickle("C:/Users/ccape/Downloads/CarPricesData/CarPricesData.pkl")
+CarPricesDataNumeric=pd.read_pickle(" user path /CarPricesData/CarPricesData.pkl")
 CarPricesDataNumeric.head()
 
 
@@ -144,5 +144,5 @@ print('The Accuracy of ANN model is:', 100-np.mean(APE))
 TestingData.head()
 
 
-TestingData.to_csv("C:/Users/ccape/Downloads/NN_results.csv")
+TestingData.to_csv( "user path /NN_results.csv")
 #orginal code came from https://thinkingneuron.com/using-artificial-neural-networks-for-regression-in-python/  , changes are  replacing a deprecaited funciton and exporting the results.
