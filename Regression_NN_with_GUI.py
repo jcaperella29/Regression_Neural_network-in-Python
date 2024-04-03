@@ -208,7 +208,8 @@ if output is not None:
         b1 = tk.Button(my_w, text='Save', 
         width=20,command = lambda:save_file())
         b1.grid(row=2,column=1)
-        
+        b2=tk.Button(my_w, text="Quit", command=my_w.destroy)
+        b2.grid(row = 3, column=1)
        
         my_w.mainloop() 
 
